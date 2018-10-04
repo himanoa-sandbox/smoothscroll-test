@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "mitete": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url https://himanoa-sandbox.github.io/smoothscroll-test/"
   },
   "author": "himanoa",
   "license": "MIT",
