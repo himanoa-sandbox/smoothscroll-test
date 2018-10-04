@@ -17,4 +17,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=n(require("react")),t=n(require("react-dom")),l=n(require("smoothscroll-polyfill"));function n(e){return e&&e.__esModule?e:{default:e}}l.default.polyfill();var r=function(e){e.preventDefault(),window.scroll({top:0,left:0,behavior:"smooth"})},u=function(){return new Array(100).fill("名取すこだぞ").map(function(t){return e.default.createElement("h1",null,"".concat(Math.floor(Math.random()*Math.floor(100)).toString(),": ").concat(t))})},a=function(){return e.default.createElement("div",null,e.default.createElement("h1",null,"🚑🍆🏍"),e.default.createElement(u,null),e.default.createElement("button",{onClick:r},"病棟に戻ろう!"))};t.default.render(e.default.createElement(a,null),document.getElementById("app"));
 },{"react":"HdMw","react-dom":"X9zx","smoothscroll-polyfill":"r1vq"}]},{},["Focm"], null)
-//# sourceMappingURL=/smoothscroll_test.9a8ec47e.map
+//# sourceMappingURL=https://himanoa-sandbox.github.io/smoothscroll-test/smoothscroll_test.9a8ec47e.map
