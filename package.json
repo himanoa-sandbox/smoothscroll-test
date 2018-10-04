@@ -4,12 +4,20 @@
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mitete": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "himanoa",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
     "parcel-bundler": "^1.10.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-react-app": "^5.0.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   }
 }
